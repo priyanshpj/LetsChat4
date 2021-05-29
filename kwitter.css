@@ -1,0 +1,56 @@
+.bg1{
+    background: linear-gradient(red, blue);
+}
+.header
+{
+	color: green;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+.lcclass{
+    background-color: lightblue;
+    width: 50%;
+    height: 65%;
+    margin-top: 100px;
+}
+.header1{
+    color: green;font-family: 'Yeon Sung';font-size: 25px;letter-spacing: 2.5px;margin-top: 80px;
+}
+.loginimage{
+    margin-top: 100px;
+}
+.header2{
+    color: rgb(0, 255, 0);font-family: 'Yeon Sung';font-size: 25px;letter-spacing: 2.5px;margin-top: 80px;
+}
+.lightlabel{
+    color: ivory;
+}
+#roomdiv{
+    background-color: cyan; 
+    width: 50%;
+    border-radius: 25cm;
+}
+#logout{
+    margin-top: 10px;
+    margin-left: 1150px;
+}
+#logout1{
+    margin-top: 10px;
+    margin-left: 1150px;
+}
+.messages{
+    height: 100%;
+    background-color: cyan;
+    margin-bottom: 70px;
+}
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+#send{
+    background-size: cover;
+    color: blue;
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    font-size: 30px;
+}

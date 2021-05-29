@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>LetsChat!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="kwitter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+</head>
+
+<body class="bg1">
+    <center>
+        <button class="glyphicon glyphicon-log-out btn btn-warning" id="logout1" onclick="logout()">Logout</button>
+        <h1 class="header">Let's Chat!<img src="coffee_gif.gif" style="height: 45px; width:45px"></h1>
+        <div class="messages" id="roommessages">
+
+        </div>
+
+    </center>
+    <div style="margin-bottom: 0px;bottom: 0; position: relative; width: 100%;">
+
+        <input id="sendmessageinput" class="form-control col-lg-11" style="width:85%;" placeholder="Type your message"><span>&nbsp; &nbsp; &nbsp;
+            <button id="send" onclick="sendmessage()"><i class="fa fa-send-o"></i></button>&nbsp; &nbsp; &nbsp;<button class="btn btn-warning" onclick="start()" style="border-radius: 100%;"> <i class="fa fa-microphone" aria-hidden="true"></i></button></span>
+
+    </div>
+    <script src="kwitter_page.js"></script>
+</body>
+
+</html>
